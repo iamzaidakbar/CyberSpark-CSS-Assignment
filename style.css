@@ -1,0 +1,255 @@
+/*Begin here*/
+
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Button one */
+
+
+a {
+    color: white;
+    background-color:rgb(71, 114, 255);
+    text-decoration: none;
+}
+.nav-1{
+    text-align: center;
+}
+.nav-1 >ul{ margin: 0 auto; width: 80px; }
+.nav-1 ul li{
+    display: block;
+    float: left;
+    margin-left:-40px;
+    position: relative;
+}
+.nav-1 ul a{
+    display: block;
+    float: left;
+    width: 150px;
+    padding: 10px 20px;
+    margin: 1px;
+    border-radius: 25px;
+}
+.nav-1 ul a:hover{
+    background: rgb(231, 84, 16);
+}
+.nav-1 ul li ul li{
+    float: none;
+}
+.nav-1 ul li ul{
+    display: none;
+    position: absolute;
+    top: 42px;
+}
+.nav-1 ul li:hover>ul{
+    display: block;
+}
+.nav-1 ul li a{
+    display: block;
+}
+
+p {
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+}
+
+/* button 2 */
+
+a {
+    color: white;
+    background-color:rgb(71, 114, 255);
+    text-decoration: none;
+}
+.nav-2{
+    text-align: center;
+}
+.nav-2 >ul{ margin: 0 auto; width: 80px; }
+.nav-2 ul li{
+    display: block;
+    float: left;
+    margin-left:-40px;
+    position: relative;
+}
+.nav-2 ul a{
+    display: block;
+    float: left;
+    width: 150px;
+    padding: 10px 20px;
+    margin: 1px;
+    border-radius: 25px;
+}
+.nav-2 ul a:focus-within{
+    background: rgb(231, 84, 16);
+}
+.nav-2 ul li ul li{
+    float: none;
+}
+.nav-2 ul li ul{
+    display: none;
+    position: absolute;
+    top: 42px;
+}
+.nav-2 ul li:focus-within>ul{
+    display: block;
+}
+.nav-2 ul li a{
+    display: block;
+}
+
+p {
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+}
+
+/* button 3 */
+
+a {
+    color: white;
+    background-color:rgb(71, 114, 255);
+    text-decoration: none;
+}
+.nav-3{
+    text-align: center;
+}
+.nav-3 >ul{ margin: 0 auto; width: 80px; }
+.nav-3 ul li{
+    display: block;
+    float: left;
+    margin-left:-40px;
+    position: relative;
+}
+.nav-3 ul a{
+    display: block;
+    float: left;
+    width: 150px;
+    padding: 10px 20px;
+    margin: 1px;
+    border-radius: 25px;
+}
+.nav-3 ul a:active{
+    background: rgb(231, 84, 16);
+}
+.nav-3 ul li ul li{
+    float: none;
+}
+.nav-3 ul li ul{
+    display: none;
+    position: absolute;
+    top: 42px;
+}
+.nav-3 ul li:active>ul{
+    display: block;
+}
+.nav-3 ul li a{
+    display: block;
+}
+
+p {
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+}
+
+
+/* button 4 */
+
+
+a {
+    color: white;
+    background-color:rgb(71, 114, 255);
+    text-decoration: none;
+}
+.nav-4{
+    text-align: center;
+}
+.nav-4 >ul{ margin: 0 auto; width: 80px; }
+.nav-4 ul li{
+    display: block;
+    float: left;
+    margin-left:-40px;
+    position: relative;
+}
+.nav-4 ul a{
+    display: block;
+    float: left;
+    width: 150px;
+    padding: 10px 20px;
+    margin: 1px;
+    border-radius: 25px;
+}
+.nav-4 ul a:focus-within{
+    background: rgb(231, 84, 16);
+}
+.nav-4 ul li ul li{
+    float: none;
+}
+.nav-4 ul li ul{
+    display: none;
+    position: absolute;
+    top: 42px;
+}
+.nav-4 ul li:focus-within>ul{
+    display: block;
+}
+.nav-4 ul li a{
+    display: block;
+}
+
+p {
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+}
+/* button 5 */
+
+a {
+    color: white;
+    background-color:rgb(71, 114, 255);
+    text-decoration: none;
+}
+.nav-5{
+    text-align: center;
+}
+.nav-5 >ul{ margin: 0 auto; width: 80px; }
+.nav-5 ul li{
+    display: block;
+    float: left;
+    margin-left:-40px;
+    position: relative;
+}
+.nav-5 ul a{
+    display: block;
+    float: left;
+    width: 150px;
+    padding: 10px 20px;
+    margin: 1px;
+    border-radius: 25px;
+}
+.nav-5 ul a:disabled{
+    background: rgb(231, 84, 16);
+}
+.nav-5 ul li ul li{
+    float: none;
+}
+.nav-5 ul li ul{
+    display: none;
+    position: absolute;
+    top: 42px;
+}
+.nav-5 ul li:disabled>ul{
+    display: block;
+}
+.nav-5 ul li a{
+    display: block;
+}
+
+p {
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+}
